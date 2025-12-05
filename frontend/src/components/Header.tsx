@@ -11,11 +11,11 @@ export function Header() {
             </div>
             <div>
               <h1 className="text-white mb-1 flex items-center gap-2">
-                Data Quality Anomaly Detector
+                InsureSight AI
                 <Activity className="size-5 animate-pulse text-green-300" />
               </h1>
               <p className="text-blue-100 text-sm">
-                Automated detection of missing values, duplicates, inconsistencies & ML anomalies
+                AI-powered insights for clean, accurate, and fraud-free insurance claim data.
               </p>
             </div>
           </div>
