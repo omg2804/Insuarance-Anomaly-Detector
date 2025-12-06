@@ -2,10 +2,14 @@ import axios, { AxiosError } from 'axios';
 import { API_BASE } from '../config';
 import { ClaimData } from '../types/claim';
 
-const api = axios.create({
-  baseURL: API_BASE,
-  timeout: 30000, // 30 seconds for large file processing
+// const api = axios.create({
+//   baseURL: API_BASE,
+//   timeout: 30000, // 30 seconds for large file processing
+// });
+export const api = axios.create({
+  baseURL: "https://insurance-anomaly-detector.onrender.com",
 });
+
 
 export interface HealthResponse {
   status: string;
