@@ -68,6 +68,20 @@ def get_latest_report():
         raise HTTPException(status_code=404, detail="No report available. Please run the pipeline first.")
     return latest_report
 
+@app.get("/")
+def read_root():
+    return {
+        "message": "InsureSight AI backend is running successfully!",
+        "status": "ok",
+        "endpoints": [
+            "/pipeline/run",
+            "/pipeline/latest",
+            "/pipeline/run-sample",
+            "/health"
+        ]
+    }
+
+
 @app.post("/pipeline/run-sample")
 async def run_sample_pipeline():
     """Run pipeline with sample data file"""
