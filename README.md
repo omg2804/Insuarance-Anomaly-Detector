@@ -4,6 +4,10 @@ InsureSight AI is an automated system that detects missing values, duplicates, i
 
 ---
 
+## Deployments
+https://insuarance-anomaly-detector-weld.vercel.app/
+
+
 ## Key Features
 
 - Automated ETL pipeline for cleaning and standardizing claim data  
@@ -76,5 +80,6 @@ Access frontend at http://localhost:5173
 ## Author
 
 Om Gaikwad  
+
 
 
