@@ -18,7 +18,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://insurance-anomaly-detector-weld.vercel.app",  # Correct spelling, no slash
+        "https://insuarance-anomaly-detector-weld.vercel.app",  # Correct spelling, no slash
     ],
     allow_credentials=True,
     allow_methods=["*"],
